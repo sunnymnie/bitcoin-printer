@@ -1,104 +1,110 @@
 # Bitcoin Printer 
 
 ## Immediate tasks:
-- create `classificationreportgenerator.py` in `analysis-features` that automatically does what `c-report-gen.ipynb` currently fulfills. 
+- create `classification_report_generator.py` in `analysis-features` that automatically does what `c-report-gen.ipynb` currently fulfills. Methods it needs to have: 
+    - `generate_classification_report()`
+    - `forward_test()`
+    - `feature_importance()`
+    - `cross_validation_scores()`
+- create `data_analysis.py` that has the following methods: 
+    - `plot_corr_matrix()`
+    - Consider making one for plotting simple plots, but may not need this. 
+    
+## Project goal: 
+Create a Scikit-learn model that can reliably predict bitcoin dips
 
-## Month-end goal (May 31st):
-A Scikit-learn model that predicts the price of Bitcoin given matches to technical indicators and other indicators like the stock-to-flow model
+Also, emoji meanings: 
+- ✅ Finished satisfactorily 
+- 🟡 Finished, but might want to double check and perhaps re-do
+- 🔴 Finished haphazardly, needs major make-over. (ie, for brainstorming sessions)
+- ⬜ Currently working on
 
-## Further goals:
-A filter that can spot promising alt-coins or a model that can predict alt-coin price movements. 
+## Project timeline:
+1. ✅ Download past Bitcoin data
+2. ✅ Create basic technical indicators
+3. 🟡 Create target column
+4. ⬜ Optimizing and exploring paramaters / features
+5. ⬜ Finding best hyperparamaters of model and weeding out features with low feature importance. 
+6. Testing best representation of data for model. 
+    1. Many classification models or just one? 
+    2. Create concrete decision which features to keep and which to remove. 
+7. Create new model(s) for predicting local bitcoin peaks. 
+    1. Re-create target column and basic technical indicators
+    2. Use test with a variety of features, and include all selected features used for bitcoin dip model. 
+    3. Re-consider how many models to use
+8. Create program that takes in bitcoin prices hourly and runs them by the models. Create UI and host model to run 24/7 with api-access to buy and sell on Binance. 
+9. Foward testing with small amounts of money. If unsuccessful consider if problem stems from model or from model-wrapper. Else, turn on bitcoin printer. 
+10. Expansion: predict stocks, altcoins, commodities, etc. 
 
-## Plan:
-1. Find out where to get my data and find the most efficient method
-2. Learn about technical analysis and which indicators I think my next programs must/should/could include. 
-3. Find if there exists any dependencies that automatically creates technical indicators from time-series-data. 
-    - If yes: learn to use them
-    - If yes or no: aim to make some technical indicators by hand (especially those that are more obscure, such as logarithmic-growth)
-4. Create a price-analyzer program. Regard to information about this project below
-5. Learn time series data prediction with Scikit-learn module on regression + start data exploratory phase
-6. Create scikit-learn model based on dataset from price-analyzer program. 
+**Sidequests (Optional, consider doing when reaching chokepoint)**
+- Look into incorporating fundamental data / indicators
+- Try to incorporate traditional technical patterns (triangle, support and resistance)
 
+## Todolist `Optimizing and exploring paramaters / features`: 
+**⬜ Volume**
+- 🔴 Money Flow Index (MFI)
+- 🔴 Accumulation/Distribution Index (ADI)
+- 🔴 On-Balance Volume (OBV)
+- 🔴 Chaikin Money Flow (CMF)
+- 🔴 Force Index (FI)
+- 🔴 Ease of Movement (EoM, EMV)
+- 🔴 Volume-price Trend (VPT)
+- 🔴 Negative Volume Index (NVI)
+- 🔴 Volume Weighted Average Price (VWAP)
+**⬜ Volatility**
+- ⬜ Average True Range (ATR)
+- ⬜ Bollinger Bands (BB)
+- ⬜ Keltner Channel (KC)
+- ⬜ Donchian Channel (DC)
+- ⬜ Ulcer Index (UI)
+**⬜ Trend**
+- ✅ Simple Moving Average (SMA)
+- ⬜ Exponential Moving Average (EMA)
+- ⬜ Weighted Moving Average (WMA)
+- ⬜ Moving Average Convergence Divergence (MACD)
+- ⬜ Average Directional Movement Index (ADX)
+- ⬜ Vortex Indicator (VI)
+- ⬜ Trix (TRIX)
+- ⬜ Mass Index (MI)
+- ⬜ Commodity Channel Index (CCI)
+- ⬜ Detrended Price Oscillator (DPO)
+- ⬜ KST Oscillator (KST)
+- ⬜ Ichimoku Kinkō Hyō (Ichimoku)
+- ⬜ Parabolic Stop And Reverse (Parabolic SAR)
+- ⬜ Schaff Trend Cycle (STC)
+**⬜ Momentum**
+- ⬜ Relative Strength Index (RSI)
+- ⬜ Stochastic RSI (SRSI)
+- ⬜ True strength index (TSI)
+- ⬜ Ultimate Oscillator (UO)
+- ⬜ Stochastic Oscillator (SR)
+- ⬜ Williams %R (WR)
+- ⬜ Awesome Oscillator (AO)
+- ⬜ Kaufman's Adaptive Moving Average (KAMA)
+- ⬜ Rate of Change (ROC)
+- ⬜ Percentage Price Oscillator (PPO)
+- ⬜ Percentage Volume Oscillator (PVO)
+**⬜ Others**
+- ⬜ Daily Return (DR)
+- ⬜ Daily Log Return (DLR)
+- ⬜ Cumulative Return (CR)
 
-### Price analyzer program
-This program will end up forming the backbone of the inputs to the ml model, but can exist as a separate equally useful program. 
+### Miscellaneous notes (remove if becomes useless)
+- Indicator inspiration
+    - bull flag. up then slight pullback with decrease in selling volume. if selling is high = price correction. 
+        - pole starts as dip in uptrend
+        - usual gain: bottom of pole to top of pole distance
+    - falling wedge: gain price = largest movement in price of wedge on leftest side
+    - W and M patterns, w is bullish
+    - fib retracement
+    - btc dominance
 
-Program purpose: Given past price movements of currency X, gives a dictionary (or dataframe) containing values to all existing technical indicators. As an extension, can perform some brute-force simple arithmetic to give a semi-meaningful number result. 
-
-Remake for ml model: return dataframe with columns for each indicator (Make sure this is consistent with what's taught)
-
-## Plan results + notes + directory
-### 1. Where to get my data:
-
-Requirements:
-- Free and reliable
-- Is continually updated
-- 
-
-**[kaggle](https://www.kaggle.com/tencars/392-crypto-currency-pairs-at-minute-resolution?select=algusd.csv)**
-
-Pros: `1 minute detail`
-
-Cons: 
-
-Unknowns: `reliability` `updated`
-
-**binance**
-
-Will probably go with Binance. If it works I'm probably not going to test others unless Binance breaks. 
-
-[where to get past crypto data](https://fxgears.com/index.php?threads/how-to-acquire-free-historical-tick-and-bar-data-for-algo-trading-and-backtesting-in-2020-stocks-forex-and-crypto-currency.1229/#post-19305)
-
-Ran code:
-`pip3 install python-binance`
-
-
-
-### 2. Technical analysis 
-
-Using technical analysis [package](https://github.com/bukosabino/ta) `conda install -c conda-forge ta`
-
-Plan: Given that 'all indicators' method is broken, I will have to add each one individually. The first few I will add will be ones that (1) Are covered in Coin Bureau's indicators list, (2) exists in the library. + I get to learn the data. 
-
-[ta documentation](https://technical-analysis-library-in-python.readthedocs.io/en/latest/ta.html)
-
-[ta github](https://github.com/bukosabino/ta)
-
-#### Sources to research:
+### Resources 
+- [where to get past crypto data](https://fxgears.com/index.php?threads/how-to-acquire-free-historical-tick-and-bar-data-for-algo-trading-and-backtesting-in-2020-stocks-forex-and-crypto-currency.1229/#post-19305) `pip3 install python-binance`
+- [technical analysis package](https://github.com/bukosabino/ta) `conda install -c conda-forge ta`
+    - [ta documentation](https://technical-analysis-library-in-python.readthedocs.io/en/latest/ta.html)
+    - [ta github](https://github.com/bukosabino/ta)
 - [Coin Bureau](https://www.youtube.com/watch?v=lW3eWIj3Q04)
 - [the trading channel](https://www.youtube.com/watch?v=eynxyoKgpng)
-
-DONE above researching
-
-### 3. Add technical analysis to time-series-data
-
-Done adding technical analysis data. Csvs with technical analysis are named "...-features.csv". 
-
-### 4. Create price-analyzer side project
-
-Skip. Current implementation presents all indicators without UI. Plus this project is flawed in the beginning as it assums I can find the best weights and balances to make meaning from technical analysis. 
-
-### 5. Start and finish regression module + work on data exploratory side-projects
-
-End goal: Finish and understand the regression module at the same time when all data exploratory side-projects are finished. 
-Data exploratory side-projects include the correlation matrix, matplotlib feature and target comparision, etc. 
-
-### 6. Create ML regression (or classification group)
-
-[interesting reddit comment strategy](https://www.reddit.com/r/algotrading/comments/ipa112/what_target_do_your_algo_aim_to_predict_price/)
-
-
-
-### Need to do:
-- Need to create correlation matrix for all available indicators, pick the highest abs(correlation) and create variations and create ml algos to work on versions of those and analyze feature importance and pick highest (also forward test on Jan 2021 + data (don't train on those))
-
-### Technical indicators
-- https://www.youtube.com/watch?v=9_Bs5R66NxY
-- bull flag. up then slight pullback with decrease in selling volume. if selling is high = price correction. 
-    - pole starts as dip in uptrend
-    - usual gain: bottom of pole to top of pole distance
-- falling wedge: gain price = largest movement in price of wedge on leftest side
-- W and M patterns, w is bullish
-- fib retracement
-- btc dominance
-- 
+- [interesting reddit comment strategy](https://www.reddit.com/r/algotrading/comments/ipa112/what_target_do_your_algo_aim_to_predict_price/)
+- [technical indicator patterns](https://www.youtube.com/watch?v=9_Bs5R66NxY)
