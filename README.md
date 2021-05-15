@@ -51,12 +51,14 @@ Also, emoji meanings:
 - 🔴 Volume-price Trend (VPT)
 - 🔴 Negative Volume Index (NVI)
 - 🔴 Volume Weighted Average Price (VWAP)
+
 **⬜ Volatility**
 - ⬜ Average True Range (ATR)
 - ⬜ Bollinger Bands (BB)
 - ⬜ Keltner Channel (KC)
 - ⬜ Donchian Channel (DC)
 - ⬜ Ulcer Index (UI)
+
 **⬜ Trend**
 - ✅ Simple Moving Average (SMA)
 - ⬜ Exponential Moving Average (EMA)
@@ -72,6 +74,7 @@ Also, emoji meanings:
 - ⬜ Ichimoku Kinkō Hyō (Ichimoku)
 - ⬜ Parabolic Stop And Reverse (Parabolic SAR)
 - ⬜ Schaff Trend Cycle (STC)
+
 **⬜ Momentum**
 - ⬜ Relative Strength Index (RSI)
 - ⬜ Stochastic RSI (SRSI)
@@ -84,6 +87,7 @@ Also, emoji meanings:
 - ⬜ Rate of Change (ROC)
 - ⬜ Percentage Price Oscillator (PPO)
 - ⬜ Percentage Volume Oscillator (PVO)
+
 **⬜ Others**
 - ⬜ Daily Return (DR)
 - ⬜ Daily Log Return (DLR)
