@@ -49,7 +49,7 @@ Also, emoji meanings:
 - 🔴 Volume Weighted Average Price (VWAP)
 
 **⬜ Volatility**
-- ⬜ Average True Range (ATR)
+- ✅ Average True Range (ATR)
 - ⬜ Bollinger Bands (BB)
 - ⬜ Keltner Channel (KC)
 - ⬜ Donchian Channel (DC)
