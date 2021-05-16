@@ -1,11 +1,6 @@
 # Bitcoin Printer 
 
 ## Immediate tasks:
-- create `classification_report_generator.py` in `analysis-features` that automatically does what `c-report-gen.ipynb` currently fulfills. Methods it needs to have: 
-    - `generate_classification_report()`
-    - `forward_test()`
-    - `feature_importance()`
-    - `cross_validation_scores()`
 - create `data_analysis.py` that has the following methods: 
     - `plot_corr_matrix()`
     - Consider making one for plotting simple plots, but may not need this. 
@@ -39,6 +34,7 @@ Also, emoji meanings:
 **Sidequests (Optional, consider doing when reaching chokepoint)**
 - Look into incorporating fundamental data / indicators
 - Try to incorporate traditional technical patterns (triangle, support and resistance)
+- Use TensorFlow (recommended after 9)
 
 ## Todolist `Optimizing and exploring paramaters / features`: 
 **⬜ Volume**
