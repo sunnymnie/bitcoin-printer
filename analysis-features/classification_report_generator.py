@@ -112,7 +112,7 @@ def generate_report(X, y, remind=False):
 	# print(f"recall: {cross_validated_metric(model, 'recall')}")
 	# print(f"f1: {cross_validated_metric(model, 'f1')}")
 	
-def foward_test(X, y, close, rows=3000, mistakes=False):
+def forward_test(X, y, close, rows=3000, mistakes=False):
 	"""
 	performs quick forward test with last 'rows' number of rows (Default 3000)
 	close is closing price and is same length as X (and y)

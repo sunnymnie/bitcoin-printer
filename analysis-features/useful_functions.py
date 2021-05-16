@@ -1,4 +1,5 @@
 import numpy as np
+from ta.trend import SMAIndicator
 
 def log_abs(x, zeros=False):
     """
@@ -36,5 +37,13 @@ def get_rate(x):
     past = x.shift(1)
     return list(map(none_subtraction, x, past))
 
+def get_moving_average(i, window:int):
+    """
+    returns the moving average of indicator i
+    i: pandas series
+    windows: [20, 50, 200]
+    """
+    sma = SMAIndicator(close=i, window=window)
+    return sma.sma_indicator()
 
 
