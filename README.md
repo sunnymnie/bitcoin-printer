@@ -12,7 +12,8 @@ Also, emoji meanings:
 - ✅ Finished satisfactorily 
 - 🟡 Finished, but might want to double check and perhaps re-do
 - 🔴 Finished haphazardly, needs major make-over. (ie, for brainstorming sessions)
-- ⬜ Currently working on
+- ⬜ Todo
+- ⭐ Currently working on 
 
 ## Project timeline:
 1. ✅ Download past Bitcoin data
@@ -48,15 +49,15 @@ Also, emoji meanings:
 - 🔴 Negative Volume Index (NVI)
 - 🔴 Volume Weighted Average Price (VWAP)
 
-**⬜ Volatility**
+**⭐ Volatility**
 - ✅ Average True Range (ATR)
-- ⬜ Bollinger Bands (BB)
-- ⬜ Keltner Channel (KC)
-- ⬜ Donchian Channel (DC)
-- ⬜ Ulcer Index (UI)
+- ✅ Bollinger Bands (BB)
+- ⭐ Keltner Channel (KC)
+- ⭐ Donchian Channel (DC)
+- ⭐ Ulcer Index (UI)
 
 **⬜ Trend**
-- ✅ Simple Moving Average (SMA)
+- 🟡 Simple Moving Average (SMA)
 - ⬜ Exponential Moving Average (EMA)
 - ⬜ Weighted Moving Average (WMA)
 - ⬜ Moving Average Convergence Divergence (MACD)
