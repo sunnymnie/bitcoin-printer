@@ -52,7 +52,7 @@ Also, emoji meanings:
 **⭐ Volatility**
 - ✅ Average True Range (ATR)
 - ✅ Bollinger Bands (BB)
-- ⭐ Keltner Channel (KC)
+- ✅ Keltner Channel (KC)
 - ✅ Donchian Channel (DC)
 - ⭐ Ulcer Index (UI)
 
