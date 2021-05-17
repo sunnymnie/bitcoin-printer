@@ -2,6 +2,10 @@
 
 Reduce input variables to (1) reduce computational cost of modeling and, in some cases, (2) to improve the performance of the model.
 
+Note: ⭐⭐⭐Correlated features will be given equal or similar importance, but overall reduced importance compared to the same tree built without correlated counterparts.
+
+READ: ⭐⭐⭐⭐⭐⭐⭐⭐⭐Selecting features from RandomForest: https://towardsdatascience.com/feature-selection-using-random-forest-26d7b747597f
+
 ## Statistical-based feature selection
 Evaluating the relationship between each input variable and the target variable using statistics and selecting those input variables that have the strongest relationship with the target variable. 
 
