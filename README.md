@@ -38,23 +38,23 @@ Also, emoji meanings:
 - Use TensorFlow (recommended after 9)
 
 ## Todolist `Optimizing and exploring paramaters / features`: 
-**⬜ Volume**
-- 🔴 Money Flow Index (MFI)
-- 🔴 Accumulation/Distribution Index (ADI)
-- 🔴 On-Balance Volume (OBV)
-- 🔴 Chaikin Money Flow (CMF)
-- 🔴 Force Index (FI)
-- 🔴 Ease of Movement (EoM, EMV)
-- 🔴 Volume-price Trend (VPT)
-- 🔴 Negative Volume Index (NVI)
-- 🔴 Volume Weighted Average Price (VWAP)
+**⭐ Volume**
+- ⭐ Money Flow Index (MFI)
+- ⭐ Accumulation/Distribution Index (ADI)
+- ⭐ On-Balance Volume (OBV)
+- ⭐ Chaikin Money Flow (CMF)
+- ⭐ Force Index (FI)
+- ⭐ Ease of Movement (EoM, EMV)
+- ⭐ Volume-price Trend (VPT)
+- ⭐ Negative Volume Index (NVI)
+- ⭐ Volume Weighted Average Price (VWAP)
 
-**⭐ Volatility**
+**✅ Volatility**
 - ✅ Average True Range (ATR)
 - ✅ Bollinger Bands (BB)
 - ✅ Keltner Channel (KC)
 - ✅ Donchian Channel (DC)
-- ⭐ Ulcer Index (UI)
+- ✅ Ulcer Index (UI)
 
 **⬜ Trend**
 - 🟡 Simple Moving Average (SMA)
