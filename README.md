@@ -53,7 +53,7 @@ Also, emoji meanings:
 - ✅ Average True Range (ATR)
 - ✅ Bollinger Bands (BB)
 - ⭐ Keltner Channel (KC)
-- ⭐ Donchian Channel (DC)
+- ✅ Donchian Channel (DC)
 - ⭐ Ulcer Index (UI)
 
 **⬜ Trend**
