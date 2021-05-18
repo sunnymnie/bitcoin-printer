@@ -58,8 +58,8 @@ Also, emoji meanings:
 
 **⭐ Trend**
 - ✅ Simple Moving Average (SMA)
-- ⭐ Exponential Moving Average (EMA)
-- ⭐ Weighted Moving Average (WMA)
+- 🔴 Exponential Moving Average (EMA) ASSUMED same
+- 🔴 Weighted Moving Average (WMA) ASSUMED same
 - 🟡 Moving Average Convergence Divergence (MACD)
 - ✅ AroonIndicator (ARN)
 - ✅ Average Directional Movement Index (ADX)
@@ -71,7 +71,7 @@ Also, emoji meanings:
 - 🔴 KST Oscillator (KST) Problem: 7 input variables, need to optimize
 - ✅ Ichimoku Kinkō Hyō (ICH)
 - 🟡 Parabolic Stop And Reverse (Parabolic SAR)
-- ⬜ Schaff Trend Cycle (STC)
+- 🟡 Schaff Trend Cycle (STC)
 
 **⬜ Momentum**
 - ⬜ Relative Strength Index (RSI)
