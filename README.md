@@ -60,7 +60,7 @@ Also, emoji meanings:
 - ✅ Simple Moving Average (SMA)
 - ⭐ Exponential Moving Average (EMA)
 - ⭐ Weighted Moving Average (WMA)
-- ⬜ Moving Average Convergence Divergence (MACD)
+- 🟡 Moving Average Convergence Divergence (MACD)
 - ✅ AroonIndicator (ARN)
 - ✅ Average Directional Movement Index (ADX)
 - ⬜ Vortex Indicator (VI)
@@ -68,7 +68,7 @@ Also, emoji meanings:
 - ⬜ Mass Index (MI)
 - ✅ Commodity Channel Index (CCI)
 - ✅ Detrended Price Oscillator (DPO)
-- ⬜ KST Oscillator (KST)
+- 🔴 KST Oscillator (KST) Problem: 7 input variables, need to optimize
 - ✅ Ichimoku Kinkō Hyō (ICH)
 - ⬜ Parabolic Stop And Reverse (Parabolic SAR)
 - ⬜ Schaff Trend Cycle (STC)
