@@ -67,7 +67,7 @@ Also, emoji meanings:
 - ⬜ Trix (TRIX)
 - ⬜ Mass Index (MI)
 - ✅ Commodity Channel Index (CCI)
-- ⬜ Detrended Price Oscillator (DPO)
+- ✅ Detrended Price Oscillator (DPO)
 - ⬜ KST Oscillator (KST)
 - ⬜ Ichimoku Kinkō Hyō (Ichimoku)
 - ⬜ Parabolic Stop And Reverse (Parabolic SAR)
