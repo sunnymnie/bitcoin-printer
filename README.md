@@ -65,7 +65,7 @@ Also, emoji meanings:
 - ✅ Average Directional Movement Index (ADX)
 - ⬜ Vortex Indicator (VI)
 - ⬜ Trix (TRIX)
-- ⬜ Mass Index (MI)
+- 🟡 Mass Index (MI)
 - ✅ Commodity Channel Index (CCI)
 - ✅ Detrended Price Oscillator (DPO)
 - 🔴 KST Oscillator (KST) Problem: 7 input variables, need to optimize
