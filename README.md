@@ -70,7 +70,7 @@ Also, emoji meanings:
 - ✅ Detrended Price Oscillator (DPO)
 - 🔴 KST Oscillator (KST) Problem: 7 input variables, need to optimize
 - ✅ Ichimoku Kinkō Hyō (ICH)
-- ⬜ Parabolic Stop And Reverse (Parabolic SAR)
+- 🟡 Parabolic Stop And Reverse (Parabolic SAR)
 - ⬜ Schaff Trend Cycle (STC)
 
 **⬜ Momentum**
