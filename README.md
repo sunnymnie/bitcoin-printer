@@ -56,10 +56,10 @@ Also, emoji meanings:
 - ✅ Donchian Channel (DC)
 - ✅ Ulcer Index (UI)
 
-**⬜ Trend**
-- 🟡 Simple Moving Average (SMA)
-- ⬜ Exponential Moving Average (EMA)
-- ⬜ Weighted Moving Average (WMA)
+**⭐ Trend**
+- ✅ Simple Moving Average (SMA)
+- ⭐ Exponential Moving Average (EMA)
+- ⭐ Weighted Moving Average (WMA)
 - ⬜ Moving Average Convergence Divergence (MACD)
 - ⬜ Average Directional Movement Index (ADX)
 - ⬜ Vortex Indicator (VI)
