@@ -61,6 +61,7 @@ Also, emoji meanings:
 - ⭐ Exponential Moving Average (EMA)
 - ⭐ Weighted Moving Average (WMA)
 - ⬜ Moving Average Convergence Divergence (MACD)
+- ✅ AroonIndicator (ARN)
 - ✅ Average Directional Movement Index (ADX)
 - ⬜ Vortex Indicator (VI)
 - ⬜ Trix (TRIX)
