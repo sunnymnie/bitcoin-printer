@@ -69,7 +69,7 @@ Also, emoji meanings:
 - ✅ Commodity Channel Index (CCI)
 - ✅ Detrended Price Oscillator (DPO)
 - ⬜ KST Oscillator (KST)
-- ⬜ Ichimoku Kinkō Hyō (Ichimoku)
+- ✅ Ichimoku Kinkō Hyō (ICH)
 - ⬜ Parabolic Stop And Reverse (Parabolic SAR)
 - ⬜ Schaff Trend Cycle (STC)
 
