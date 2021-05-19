@@ -56,15 +56,15 @@ Also, emoji meanings:
 - ✅ Donchian Channel (DC)
 - ✅ Ulcer Index (UI)
 
-**⭐ Trend**
+**✅ Trend**
 - ✅ Simple Moving Average (SMA)
 - 🔴 Exponential Moving Average (EMA) ASSUMED same
 - 🔴 Weighted Moving Average (WMA) ASSUMED same
 - 🟡 Moving Average Convergence Divergence (MACD)
 - ✅ AroonIndicator (ARN)
 - ✅ Average Directional Movement Index (ADX)
-- ⬜ Vortex Indicator (VI)
-- ⬜ Trix (TRIX)
+- 🟡 Vortex Indicator (VI)
+- 🟡 Trix (TRIX)
 - 🟡 Mass Index (MI)
 - ✅ Commodity Channel Index (CCI)
 - ✅ Detrended Price Oscillator (DPO)
