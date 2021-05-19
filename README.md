@@ -74,17 +74,17 @@ Also, emoji meanings:
 - 🟡 Schaff Trend Cycle (STC)
 
 **⬜ Momentum**
-- ⬜ Relative Strength Index (RSI)
-- ⬜ Stochastic RSI (SRSI)
-- ⬜ True strength index (TSI)
-- ⬜ Ultimate Oscillator (UO)
+- ✅ Relative Strength Index (RSI)
+- ✅ Stochastic RSI (SRSI)
+- ✅ True strength index (TSI)
+- 🔴🔴🔴 Ultimate Oscillator (UO) THERE"S 1000 INPUTS!!1 why? rip. 
 - ⬜ Stochastic Oscillator (SR)
-- ⬜ Williams %R (WR)
-- ⬜ Awesome Oscillator (AO)
-- ⬜ Kaufman's Adaptive Moving Average (KAMA)
-- ⬜ Rate of Change (ROC)
-- ⬜ Percentage Price Oscillator (PPO)
-- ⬜ Percentage Volume Oscillator (PVO)
+- ✅ Williams %R (WR)
+- ✅ Awesome Oscillator (AO)
+- ✅ Kaufman's Adaptive Moving Average (KAMA)
+- ✅🔴🟡 Rate of Change (ROC) ⭐⭐ JUST ROC CURVES? FROM 5 to 200?
+- ✅ Percentage Price Oscillator (PPO)
+- ✅ Percentage Volume Oscillator (PVO)
 
 **⬜ Others**
 - ⬜ Daily Return (DR)
