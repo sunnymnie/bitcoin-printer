@@ -73,12 +73,12 @@ Also, emoji meanings:
 - 🟡 Parabolic Stop And Reverse (Parabolic SAR)
 - 🟡 Schaff Trend Cycle (STC)
 
-**⬜ Momentum**
+**✅ Momentum**
 - ✅ Relative Strength Index (RSI)
 - ✅ Stochastic RSI (SRSI)
 - ✅ True strength index (TSI)
 - 🔴🔴🔴 Ultimate Oscillator (UO) THERE"S 1000 INPUTS!!1 why? rip. 
-- ⬜ Stochastic Oscillator (SR)
+- ✅ Stochastic Oscillator (SR)
 - ✅ Williams %R (WR)
 - ✅ Awesome Oscillator (AO)
 - ✅ Kaufman's Adaptive Moving Average (KAMA)
