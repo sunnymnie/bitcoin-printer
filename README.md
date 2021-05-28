@@ -1,10 +1,18 @@
 # Bitcoin Printer 
 
 ## Immediate tasks:
-- create `data_analysis.py` that has the following methods: 
-    - `plot_corr_matrix()`
-    - Consider making one for plotting simple plots, but may not need this. 
-    
+- create `target.py` that hosts functions that are helpful for finding new targets
+    - `get_wm_target()` that returns the weighted mean target with paramater for length and % gain
+    - `normalize()` that takes in a list or pandas series and normalizes it to only have 0 and 1
+    - `get_mapped_target()` that returns the `and` of each element from two lists
+- find a more elegant solution to access python documents from other folders
+- Update `classification_report_generator` to be more powerful that can return precision+f1+forwardtesting given only df. Perhaps call it `generate_report` and rename function already using that name
+
+## Notes
+- Tune the result of `get_mapped_target` to produce targets with between 10% and 15% ones. 
+    - call Series.value_counts() to get number of 0s and 1s. 
+    - Tune the wm_target's length and gain requirements
+
 ## Project goal: 
 Create a Scikit-learn model that can reliably predict bitcoin dips
 
@@ -13,14 +21,16 @@ Also, emoji meanings:
 - 🟡 Finished, but might want to double check and perhaps re-do
 - 🔴 Finished haphazardly, needs major make-over. (ie, for brainstorming sessions)
 - ⬜ Todo
-- ⭐ Currently working on 
+- ⭐ Currently working on/redoing
 
 ## Project timeline:
 1. ✅ Download past Bitcoin data
 2. ✅ Create basic technical indicators
-3. 🟡 Create target column
-4. ⭐ Optimizing and exploring paramaters / features
-5. ⭐ Finding best hyperparamaters of model and weeding out features with low feature importance. 
+3. ✅ Create basic target column and explore all available technical indicators
+4. ⭐ Create variations of target and training models on each of the targets
+    - Targets are made by mapping an indicator and keeping it as long as it makes money in the near future
+    - Targets must cover the three cases: dips, flatline before jump in price, and buying during an uptrend
+5. ⭐ Finding best hyperparamaters of each model and weeding out features with low feature importance. 
 6. ⬜ Testing best representation of data for model. 
     1. Many classification models or just one? 
     2. Create concrete decision which features to keep and which to remove. 
