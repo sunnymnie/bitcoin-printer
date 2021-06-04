@@ -1,6 +1,7 @@
 # Sensitive info + large files
 **/api-keys
 **/data
+**/models
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
