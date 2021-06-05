@@ -1,4 +1,4 @@
-# Model Dip
+# Model Dip and Peak
 
 Purpose: Make target based on existing indicator removed unprofitable buys. 
 
