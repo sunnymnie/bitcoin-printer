@@ -27,7 +27,7 @@ import useful_functions as uf
 
 #     return acc if not type(limit) == float or type(limit) == int else uf.classify(acc, limit)
 
-def get_wr_target(df_close: list[float], span: int, limit, peak: False):
+def get_wr_target(df_close: list[float], span: int, limit, peak: bool):
     """returns weighted range target given df['close']. Use limit=False to not
     classify, else float. Use peak=True to get places to sell"""
     acc = []
