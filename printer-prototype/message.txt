@@ -1,1 +1,1 @@
-{"message": "Price $35470.56 is below moving average $36507.56 by $1037.0"}
+{"message": "awaiting tp and sl orders to fulfill"}
