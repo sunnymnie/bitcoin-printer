@@ -9,12 +9,12 @@ emoji meanings:
 - ⭐ Currently working on/redoing
 
 ## Project timeline:
-1. ⬜ Form dollar bars for BTC and consider BTC futures:
-    1. ⬜ Apply a symmetric CUSUM filter (Chapter 2, Section 2.5.2.1) where the threshold is the standard deviation of daily returns (Snippet 3.1).
-    2. ⬜ Use Snippet 3.4 on a pandas series t1, where numDays = 1.
-    3. ⬜ On those sampled features, apply the triple-barrier method, where ptSl = [1,1] and t1 is the series you created in point 1.b.
-    4. ⬜ Apply getBins to generate the labels.
-2. ⬜ From exercise 1, use Snippet 3.8 to drop rare labels.
+1. 🔴 Form dollar bars for BTC and consider BTC futures:
+    1. 🔴 Apply a symmetric CUSUM filter (Chapter 2, Section 2.5.2.1) where the threshold is the standard deviation of daily returns (Snippet 3.1).
+    2. 🔴 Use Snippet 3.4 on a pandas series t1, where numDays = 1.
+    3. 🔴 On those sampled features, apply the triple-barrier method, where ptSl = [1,1] and t1 is the series you created in point 1.b.
+    4. 🔴 Apply getBins to generate the labels.
+2. ⭐ From exercise 1, use Snippet 3.8 to drop rare labels.
 3. ⬜ Adjust the getBins function (Snippet 3.5) to return a 0 whenever the vertical barrier is the one touched first.
 4. ⬜ Develop a trend-following strategy based on a popular technical analysis statistic (e.g., crossing moving averages). For each observation, the model suggests a side, but not a size of the bet.
     1. ⬜ Derive meta-labels for ptSl = [1,2] and t1 where numDays = 1. Use as trgt the daily standard deviation as computed by Snippet 3.1.
