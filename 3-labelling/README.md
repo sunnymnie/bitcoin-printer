@@ -1,0 +1,31 @@
+# Labelling
+## Section 1: Volatility and Serial Correlation
+Generate volatilites and serial correlation. Folder include notebooks to generate different types of volatilities besides default exponentiated moving average of log returns or whatever that was. 
+
+Files needed: 
+- BTCUSDT-volume-bars.csv
+
+Files created:
+- vol.csv
+- serial-correlation.csv
+
+## Section 2: Non-ML Strategy
+Generate side.csv via a non-ML or simple ML strategy. Folder includes variety of different strategies. Make sure to swap notebooks to use different strategies. 
+
+Files needed: 
+- BTCUSDT-volume-bars.csv
+
+Files created:
+- side.csv
+
+## Section 3: Meta-labelling
+Make the complete meta-labelling file, ending up with a dataframe with 'target' (to train ML model), 'side' (non-ML model's prediction), 'ret' (the return of non-ML model's bet), and 'sc' which is serial correlation. 
+
+Files needed: 
+- BTCUSDT-volume-bars.csv
+- vol.csv
+- serial-correlation.csv
+- side.csv
+
+Files created:
+- metalabels.csv
