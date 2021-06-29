@@ -29,7 +29,7 @@ Files needed:
 
 Files created:
 - metalabels.csv
+- t1.csv `t1 = pd.to_datetime(pd.read_csv("../data/t1.csv", index_col=0, parse_dates=True, squeeze=True))`
 
 Optional creations:
-- t1.csv
-- events.csv
+- events.csv `events = pd.read_csv("../data/events.csv", index_col=0, parse_dates=[0, 1])`
