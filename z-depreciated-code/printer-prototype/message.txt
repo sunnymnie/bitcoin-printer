@@ -1,1 +1,0 @@
-{"message": "awaiting tp $40954.74 and sl $38966.64 orders to fulfill. Currently price $40340.24 is $614.5 away from tp and $1373.6 from stop loss", "tp": "40954.74", "sl": "38966.64", "wait": 1403}
