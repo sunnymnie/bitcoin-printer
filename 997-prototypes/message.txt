@@ -4,4 +4,5 @@
 "z": "1.006969843491744", 
 "USDT": {"asset": "USDT", "free": "36.63503488", "locked": "0", "borrowed": "0", "interest": "0", "netAsset": "36.63503488"}, 
 "XMR": {"asset": "XMR", "free": "0.00000835", "locked": "0", "borrowed": "0.09252", "interest": "0.00001545", "netAsset": "-0.0925271"}, 
-"ZEC": {"asset": "ZEC", "free": "0.1814078", "locked": "0", "borrowed": "0", "interest": "0", "netAsset": "0.1814078"}}
+"ZEC": {"asset": "ZEC", "free": "0.1814078", "locked": "0", "borrowed": "0", "interest": "0", "netAsset": "0.1814078"},
+"mode":"2"}
