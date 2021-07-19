@@ -16,7 +16,8 @@ Files needed:
 - BTCUSDT-volume-bars.csv
 
 Files created:
-- side.csv
+- side.csv (depreciated)
+- metalabels.csv (with kalman strat)
 
 ## Section 3: Meta-labelling
 Make the complete meta-labelling file, ending up with a dataframe with 'target' (to train ML model), 'side' (non-ML model's prediction), 'ret' (the return of non-ML model's bet), and 'sc' which is serial correlation. 
